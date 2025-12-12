@@ -11,9 +11,9 @@ Welcome to my GitHub profile! I'm passionate about creating intuitive, responsiv
 Platform Undangan Cetak dan Digital Terbaik di Pontianak
 
 ### 🌐 Live Demo
-👉 user site : duainsan.story.eproject.me
-👉 user site : admin.duainsanstory.eproject.tech
-👉 rest api : admin.duainsanstory.eproject.tech
+- 👉 user site : [duainsanstory.eproject.tech](https://duainsanstory.eproject.tech)
+- 👉 admin site : [admin.duainsanstory.eproject.tech](https://admin.duainsanstory.eproject.tech)
+- 👉 rest api : 
 
 ### ✨ Key Features
 - **Feature 1**: Description of the first key feature
@@ -46,46 +46,6 @@ Platform Undangan Cetak dan Digital Terbaik di Pontianak
 ![Redux](https://img.shields.io/badge/Redux-593D88?style=for-the-badge&logo=redux&logoColor=white)
 -->
 
-### 🏁 Getting Started
-
-Follow these steps to run the project locally:
-
-#### Prerequisites
-- Node.js (v14 or higher)
-- npm or yarn package manager
-- Git
-
-#### Installation
-
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/[your-username]/[project-name].git
-   ```
-
-2. **Navigate to the project directory**
-   ```bash
-   cd [project-name]
-   ```
-
-3. **Install dependencies**
-   ```bash
-   npm install
-   # or
-   yarn install
-   ```
-
-4. **Start the development server**
-   ```bash
-   npm start
-   # or
-   yarn start
-   ```
-
-5. **Open your browser**
-   
-   Visit `http://localhost:3000` to view the application.
-
----
 
 ## 📊 GitHub Stats
 
@@ -95,8 +55,8 @@ Follow these steps to run the project locally:
 
 ## 📫 Get In Touch
 
-- 📧 Email: ihzahmahendra6661.com
-- 🌐 Portfolio: [your-portfolio.com](https://your-portfolio.com)
+- 📧 Email: ihzahmahendra6661@gmail.com
+- 🌐 Portfolio: [portfolio.ihza.me](https://portfolio.ihza.me)
 
 ---
 
