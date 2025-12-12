@@ -1,4 +1,4 @@
-# Hi there! 👋 I'm [Your Name]
+# Hi there! 👋 I'm Ihza Mahendra
 
 ### Frontend Developer | Building Modern Web Experiences
 
@@ -6,12 +6,14 @@ Welcome to my GitHub profile! I'm passionate about creating intuitive, responsiv
 
 ---
 
-## 🚀 Featured Project: [Project Name]
+## 🚀 Featured Project: Dua Insan Story
 
-A [brief one-line description of what your project does].
+Platform Undangan Cetak dan Digital Terbaik di Pontianak
 
 ### 🌐 Live Demo
-👉 **[View Live Demo](https://your-demo-link.com)** 
+👉 user site : duainsan.story.eproject.me
+👉 user site : admin.duainsanstory.eproject.tech
+👉 rest api : admin.duainsanstory.eproject.tech
 
 ### ✨ Key Features
 - **Feature 1**: Description of the first key feature
@@ -93,9 +95,7 @@ Follow these steps to run the project locally:
 
 ## 📫 Get In Touch
 
-- 💼 LinkedIn: [Your LinkedIn Profile](https://linkedin.com/in/your-profile)
-- 🐦 Twitter: [@YourHandle](https://twitter.com/your-handle)
-- 📧 Email: your.email@example.com
+- 📧 Email: ihzahmahendra6661.com
 - 🌐 Portfolio: [your-portfolio.com](https://your-portfolio.com)
 
 ---
