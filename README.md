@@ -10,17 +10,18 @@ Welcome to my GitHub profile! I'm passionate about creating intuitive, responsiv
 
 Platform Undangan Cetak dan Digital Terbaik di Pontianak
 
-### 🌐 Live Demo
-- 👉 user site : [duainsanstory.eproject.tech](https://duainsanstory.eproject.tech)
-- 👉 admin site : [admin.duainsanstory.eproject.tech](https://admin.duainsanstory.eproject.tech)
-- 👉 rest api : 
+### 🌐 Live Demo & Repositories
+- 👉 User site (live): [duainsanstory.eproject.tech](https://duainsanstory.eproject.tech)  
+  👉 User site (repo): https://github.com/ihza6661/duainsan.story-user-site.git
+- 👉 Admin site (live): [admin.duainsanstory.eproject.tech](https://admin.duainsanstory.eproject.tech)  
+  👉 Admin site (repo): https://github.com/ihza6661/dua_insan_story_admin.git
+- 👉 REST API (repo): https://github.com/ihza6661/dua_insan_story.git
 
 ### ✨ Key Features
-- **Feature 1**: Description of the first key feature
-- **Feature 2**: Description of the second key feature
-- **Feature 3**: Description of the third key feature
-- **Feature 4**: Description of the fourth key feature
-- **Feature 5**: Description of the fifth key feature
+   * Hybrid E-commerce: Seamlessly handles sales of both digital products (customizable invitations) and physical goods, integrated with payment gateways and shipping solutions.
+   * Dynamic Digital Invitations: Offers a robust system for creating, customizing, activating, and sending digital event invitations with automated notifications.
+   * Modular Architecture: Built with a powerful Laravel API backend, a dedicated Next.js admin dashboard for efficient management, and a responsive customer-facing website.
+   * Asynchronous Processing: Utilizes a queue-based system for efficient background task execution, ensuring a smooth user experience for notifications and other processes.
 
 ### 🛠️ Technologies Used
 
@@ -49,7 +50,7 @@ Platform Undangan Cetak dan Digital Terbaik di Pontianak
 
 ## 📊 GitHub Stats
 
-![Your GitHub stats](https://github-readme-stats.vercel.app/api?username=[your-username]&show_icons=true&theme=radical)
+![Your GitHub stats](https://github-readme-stats.vercel.app/api?username=ihza6661&show_icons=true&theme=radical)
 
 ---
 
