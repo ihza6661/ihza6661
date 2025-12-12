@@ -1,7 +1,7 @@
 <div align="center">
 
 <h1>
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=32&pause=1000&color=3B82F6&center=true&vCenter=true&width=700&lines=Hi+there!+%F0%9F%91%8B+I'm+Ihza+Mahendra;Full+Stack+Developer;Laravel+%7C+Next.js+%7C+React;Building+Scalable+Web+Solutions;Open+to+Opportunities!" alt="Typing SVG" />
+  <img src="assets/banner.png" alt="Ihza Mahendra" />
 </h1>
 
 </div>
