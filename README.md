@@ -87,7 +87,7 @@ Follow these steps to run the project locally:
 
 ## 📊 GitHub Stats
 
-![Your GitHub stats](https://github-readme-stats.vercel.app/api?username=ihza6661&show_icons=true&theme=radical)
+![Your GitHub stats](https://github-readme-stats.vercel.app/api?username=[your-username]&show_icons=true&theme=radical)
 
 ---
 
