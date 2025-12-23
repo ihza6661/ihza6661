@@ -13,6 +13,7 @@
 I'm a **Full Stack Developer** from Pontianak, Indonesia, specializing in modern web technologies and e-commerce solutions. I build scalable, user-centric applications that solve real business problems.
 
 - 🔭 Currently working on: **Dua Insan Story** - A hybrid e-commerce platform for digital & print invitations
+- 🔭 Currently working on: **Toko Komputer** - A Professional Landing Page for Local Computer Store in Pontianak
 - 🌱 Currently learning: **Advanced Next.js patterns, Cloud Architecture with AWS, Queue Systems**
 - 💼 **Open to:** Freelance projects, Full-time opportunities, and Collaborations
 - 📍 Based in: Pontianak, Indonesia 🇮🇩
