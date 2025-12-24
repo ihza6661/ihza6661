@@ -21,7 +21,9 @@ I'm a **Full Stack Developer** from Pontianak, Indonesia, specializing in modern
 
 ---
 
-## 🚀 Featured Project: Dua Insan Story
+## 🚀 Featured Projects
+
+### 📧 Dua Insan Story - Hybrid E-Commerce Platform
 
 > **Platform Undangan Cetak dan Digital Terbaik di Pontianak**  
 > A comprehensive hybrid e-commerce solution for digital and print wedding invitations
@@ -34,16 +36,13 @@ I'm a **Full Stack Developer** from Pontianak, Indonesia, specializing in modern
 
 </div>
 
-### 🎯 Problem & Solution
+#### 🎯 Problem & Solution
 
 **Problem:** Traditional invitation businesses struggle to manage both digital and physical product sales with automated digital activation, payment processing, and order management.
 
-**Solution:** A fully integrated platform with three separate applications:
-- **REST API Backend** for centralized business logic
-- **Admin Dashboard** for efficient business management
-- **Customer Website** for seamless shopping experience
+**Solution:** A fully integrated platform with three separate applications working seamlessly together - REST API Backend for centralized business logic, Admin Dashboard for efficient management, and Customer Website for seamless shopping experience.
 
-### 🌐 Live Demo & Repositories
+#### 🌐 Live Demo & Repositories
 
 | Application | Live Demo | Repository |
 |------------|-----------|------------|
@@ -51,396 +50,162 @@ I'm a **Full Stack Developer** from Pontianak, Indonesia, specializing in modern
 | 🛠️ **Admin Panel** | [admin.duainsanstory.eproject.tech](https://admin.duainsanstory.eproject.tech) | [View Code](https://github.com/ihza6661/dua_insan_story_admin.git) |
 | ⚙️ **REST API** | Private | [View Code](https://github.com/ihza6661/dua_insan_story.git) |
 
-### 🏗️ System Architecture
+#### ✨ Key Features
 
-```
-                    ┌─────────────────────────┐
-                    │   Customer Website      │
-                    │   (Vite + React 18)     │
-                    │   TypeScript + Tailwind │
-                    └───────────┬─────────────┘
-                                │
-                    ┌───────────▼─────────────┐
-                    │   Admin Dashboard       │
-                    │   (Next.js 15 + React)  │
-                    │   TypeScript + Tailwind │
-                    └───────────┬─────────────┘
-                                │
-                    ┌───────────▼─────────────┐      ┌──────────────┐
-                    │   REST API Backend      │◄────►│   MySQL      │
-                    │   (Laravel 12 + PHP)    │      │   (55 tables)│
-                    │   3,540+ lines service  │      └──────────────┘
-                    └───────────┬─────────────┘
-                                │                     ┌──────────────┐
-                                └────────────────────►│   Redis      │
-                                  Queue System         │   (Jobs/Cache)
-                                  (Email, Notifications)└─────────────┘
-                                
-    ┌────────────────┬──────────────────┬──────────────────┐
-    │   Midtrans     │   RajaOngkir     │   AWS S3         │
-    │   Payment      │   Shipping       │   File Storage   │
-    └────────────────┴──────────────────┴──────────────────┘
-```
+- 🛒 **Hybrid E-commerce** - Physical & digital products with automatic activation after payment
+- 💳 **Payment Gateway** - Midtrans integration (15+ methods), down payment system (30% DP)
+- 📧 **Digital Invitation System** - 12-month validity, dynamic form builder, automatic activation
+- 🎨 **Design Proof Workflow** - Customer review system (Approve/Revision/Reject)
+- 📦 **Order Management** - 13 automated statuses, cancellation system with refunds
+- ⭐ **Review & Rating** - 5-star system with photo uploads, moderation
+- 🔔 **Notification System** - 12 email templates, Laravel Queues for async processing
+- 📊 **Admin Analytics** - Revenue tracking, order distribution, low stock alerts
 
-### ✨ Key Features
+#### 🛠️ Tech Stack
 
-#### 🛒 **Hybrid E-commerce Engine**
-- Physical product sales with **customizable attributes** (size, color, material)
-- Digital invitation templates with **automatic activation after payment**
-- **Multiple product variants** with independent pricing and images
-- **Product add-ons system** for upselling
-- Advanced **inventory management** with stock tracking
-- **Guest checkout** and authenticated user checkout
+**Backend:** Laravel 12 + PHP 8.2 + MySQL + Redis + AWS S3  
+**Admin Dashboard:** Next.js 15 + React 19 + TypeScript + TanStack Query + Zustand  
+**User Site:** Vite 5 + React 18 + TypeScript + Framer Motion  
+**Styling:** Tailwind CSS v3/v4 + shadcn/ui  
+**Integrations:** Midtrans (Payment), RajaOngkir (Shipping), SendGrid (Email)
 
-#### 💳 **Payment & Checkout**
-- **Midtrans payment gateway** integration (15+ payment methods)
-- **Down payment (DP) system** - 30% minimum
-- **Final payment** option for partially paid orders
-- **Payment retry** for failed transactions
-- **Webhook integration** with signature verification
-- **RajaOngkir shipping** integration (JNE, POS, TIKI)
-- Real-time **shipping cost calculation**
+#### 📈 Project Scale
 
-#### 📧 **Digital Invitation System** 
-*The crown jewel of the platform*
-- **12-month validity period** with auto-expiry
-- **Dynamic form builder** with 9 field types
-- **Visual validation rules** configuration
-- **Automatic activation** after payment completion
-- **Photo upload management** (multiple images)
-- **Public sharing** via unique URL
-- **View count tracking**
-- **Email notification** with activation link
-- **Multiple template designs** (Classic, Sakeena, etc.)
+- 🗄️ **55 database tables** with comprehensive relationships
+- 📝 **3,540+ lines** of service layer code
+- 🧪 **20+ feature tests** with 118+ assertions
+- 🎨 **180+ components** across admin and user sites
+- 🔄 **150+ RESTful API endpoints**
 
-#### 🎨 **Design Proof System**
-- Admin uploads design proofs for custom orders
-- Customer **review workflow** (Approve/Revision/Reject)
-- **Version tracking** with history
-- **Email notifications** for both parties
-- Seamless integration with order management
+---
 
-#### 📦 **Order Management**
-- **13 order statuses** with automated workflows
-- **Order cancellation system** with 24-hour window
-- Admin **approval/rejection workflow** for cancellations
-- **Refund processing** via Midtrans API
-- **Order tracking** with visual timeline
-- **Invoice generation** (PDF download)
-- **Activity logging** for audit trail
+### 🖥️ Database Computer - Landing Page
 
-#### ⭐ **Review & Rating System**
-- **5-star rating** with photo uploads (up to 5 images)
-- **Review moderation** (admin approval)
-- **Featured reviews** system
-- **Admin responses** to reviews
-- **Helpful vote** system
-- **Verified purchase** badge
-- Rate limiting: 5 reviews per hour
-
-#### 🎁 **Promo Code System**
-- **Percentage** and **fixed amount** discounts
-- Minimum purchase requirements
-- Usage limits (total & per user)
-- Start/end date validity
-- Usage tracking and statistics
-
-#### 🔔 **Notification System**
-- **12 automated email templates**
-- In-app notifications with unread badge
-- **Laravel Queues** for async processing
-- Email notifications for: orders, payments, design proofs, cancellations
-
-#### 📊 **Admin Analytics Dashboard**
-- Revenue tracking with **trend charts**
-- Order status **distribution charts**
-- **Top 5 products** widget
-- **Low stock alerts** (< 10 items)
-- Customer count & growth metrics
-- Cancellation rate tracking
-- Date range filters (daily, weekly, monthly, custom)
-
-### 🛠️ Complete Tech Stack
-
-#### **Backend (Laravel API)**
+A modern, conversion-optimized landing page for a trusted computer store in Pontianak, West Kalimantan
 
 <div align="center">
 
-![PHP](https://img.shields.io/badge/PHP_8.2+-777BB4?style=for-the-badge&logo=php&logoColor=white)
-![Laravel](https://img.shields.io/badge/Laravel_12-FF2D20?style=for-the-badge&logo=laravel&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-D82C20?style=for-the-badge&logo=redis&logoColor=white)
-![Sanctum](https://img.shields.io/badge/Laravel_Sanctum-FF2D20?style=for-the-badge&logo=laravel&logoColor=white)
-![Composer](https://img.shields.io/badge/Composer-885630?style=for-the-badge&logo=composer&logoColor=white)
+[![Live Demo](https://img.shields.io/badge/Demo-Live-success?style=for-the-badge&logo=vercel)](https://toko-komputer-landing-site.vercel.app/)
+[![React](https://img.shields.io/badge/React-18.3-61DAFB?style=for-the-badge&logo=react)](https://reactjs.org/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5.8-3178C6?style=for-the-badge&logo=typescript)](https://www.typescriptlang.org/)
 
 </div>
 
-**Key Packages:**
-- `laravel/sanctum` ^4.0 - JWT Authentication
-- `midtrans/midtrans-php` ^2.6 - Payment gateway
-- `guzzlehttp/guzzle` ^7.9 - HTTP client (RajaOngkir API)
-- `barryvdh/laravel-dompdf` ^3.1 - PDF generation
-- `league/flysystem-aws-s3-v3` ^3.0 - AWS S3 integration
-- `phpunit/phpunit` ^11.5 - Testing framework
+#### 💼 Business Impact
 
-**Architecture:**
+- ✅ **24/7 customer self-service** reducing support workload by 70%
+- ✅ **SEO-optimized** with Schema.org markup for Google visibility
+- ✅ **Smart WhatsApp routing** (Sales/Service) with conversion tracking
+- ✅ **Projected ROI:** 1,500% (75-100 WhatsApp inquiries/month)
+
+#### ✨ Key Features
+
+- 🛒 **Dynamic product catalog** with sold-out tracking and real-time inventory
+- 📊 **Built-in analytics dashboard** - GA4 + Facebook Pixel integration
+- 💬 **Context-aware WhatsApp integration** - Automatic routing based on inquiry type
+- ⚡ **Lighthouse scores:** 90+ performance, 100 SEO, 95+ accessibility
+- 🔍 **SEO optimized** - Schema.org structured data, Open Graph tags
+- ♿ **WCAG-compliant** accessibility with proper ARIA labels
+
+#### 🛠️ Tech Stack
+
+**Frontend:** React 18 + TypeScript + Vite 5  
+**Styling:** Tailwind CSS 3 + shadcn/ui  
+**State Management:** TanStack Query 5  
+**Analytics:** Google Analytics 4 + Facebook Pixel  
+**Deployment:** Vercel (auto CI/CD)
+
+🔗 **Repository:** [View Code](https://github.com/ihza6661/Toko-Komputer) | **Live:** [Demo Site](https://toko-komputer-landing-site.vercel.app/)
+
+---
+
+### ⚙️ R-Tech Computer - Backend API & Admin Panel
+
+Full-stack admin panel and REST API for computer store management with Cloudinary integration
+
+<div align="center">
+
+[![Laravel](https://img.shields.io/badge/Laravel-12-FF2D20?style=for-the-badge&logo=laravel)](https://laravel.com/)
+[![Inertia](https://img.shields.io/badge/Inertia.js-React-9553E9?style=for-the-badge&logo=inertia)](https://inertiajs.com/)
+[![PostgreSQL](https://img.shields.io/badge/PostgreSQL-Heroku-316192?style=for-the-badge&logo=postgresql)](https://www.postgresql.org/)
+
+</div>
+
+#### ✨ Key Features
+
+- 🏗️ **Product management** with categories, variants, and dynamic attributes
+- 🖼️ **Cloudinary integration** - Image storage, optimization, and transformation
+- 📧 **Contact form system** - Automated email notifications via SendGrid
+- 🔐 **Authentication & authorization** - Session-based auth with role management
+- 📊 **Queue system** - Database-driven queues for async tasks
+- 🎨 **Modern admin UI** - Inertia.js + React + TypeScript
+
+#### 🛠️ Tech Stack
+
+**Backend:** Laravel 12 (PHP 8.2) REST API  
+**Frontend:** Inertia.js + React + TypeScript  
+**Database:** PostgreSQL (Heroku)  
+**Storage:** Cloudinary (image management)  
+**Email:** SendGrid SMTP  
+**Deployment:** Heroku with automatic migrations
+
+#### 🏗️ Architecture Highlights
+
 - Repository-Service-Controller pattern
-- 33 Eloquent models
-- 30+ service classes (3,540+ lines)
-- 55 database tables
-- 55 migrations with seeders
-- 20+ feature tests (118+ assertions)
+- Eloquent ORM with migrations & seeders
+- GitHub Actions CI/CD (linting + tests)
+- Session-based authentication
+- Middleware for CORS and admin access control
 
-#### **Admin Dashboard (Next.js)**
-
-<div align="center">
-
-![Next.js](https://img.shields.io/badge/Next.js_15-000000?style=for-the-badge&logo=next.js&logoColor=white)
-![React](https://img.shields.io/badge/React_19-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![TypeScript](https://img.shields.io/badge/TypeScript_5-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
-![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS_v4-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
-![React Query](https://img.shields.io/badge/React_Query-FF4154?style=for-the-badge&logo=react-query&logoColor=white)
-![Zustand](https://img.shields.io/badge/Zustand-000000?style=for-the-badge&logo=react&logoColor=white)
-
-</div>
-
-**Key Libraries:**
-- `@tanstack/react-query` ^5.84 - Server state management
-- `zustand` ^5.0 - Client state management
-- `react-hook-form` ^7.62 - Form handling
-- `zod` ^4.0 - Schema validation
-- `shadcn/ui` - 28 UI components
-- `@radix-ui/*` - Accessible primitives
-- `recharts` ^3.3 - Data visualization
-- `next-themes` ^0.4 - Dark mode support
-
-**Features:**
-- 50+ admin pages
-- 100+ custom components
-- DataTables with sorting/filtering
-- Real-time analytics dashboard
-- Dark/light theme toggle
-
-#### **User Site (Vite + React)**
-
-<div align="center">
-
-![Vite](https://img.shields.io/badge/Vite_5-646CFF?style=for-the-badge&logo=vite&logoColor=white)
-![React](https://img.shields.io/badge/React_18-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![TypeScript](https://img.shields.io/badge/TypeScript_5-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
-![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS_v3-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
-![React Router](https://img.shields.io/badge/React_Router_v6-CA4245?style=for-the-badge&logo=react-router&logoColor=white)
-![Framer Motion](https://img.shields.io/badge/Framer_Motion-0055FF?style=for-the-badge&logo=framer&logoColor=white)
-
-</div>
-
-**Key Libraries:**
-- `@tanstack/react-query` ^5.56 - Server state management
-- `react-router-dom` ^6.30 - Routing
-- `react-hook-form` ^7.62 - Form handling
-- `zod` ^3.25 - Validation
-- `framer-motion` ^12.23 - Smooth animations
-- `shadcn/ui` - 30+ UI components
-- `embla-carousel-react` ^8.0 - Product carousels
-- `react-share` ^5.2 - Social sharing
-- `axios` ^1.12 - HTTP client
-
-**Features:**
-- 30+ customer-facing pages
-- 80+ reusable components
-- Mobile-first responsive design
-- Smooth page transitions
-- Guest checkout support
-
-#### **DevOps & Tools**
-
-<div align="center">
-
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![AWS S3](https://img.shields.io/badge/AWS_S3-569A31?style=for-the-badge&logo=amazon-s3&logoColor=white)
-![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js_18+-339933?style=for-the-badge&logo=node.js&logoColor=white)
-![npm](https://img.shields.io/badge/npm-CB3837?style=for-the-badge&logo=npm&logoColor=white)
-
-</div>
-
-**Deployment:**
-- Backend: Laravel Forge / Heroku
-- Frontend: Vercel (both admin & user site)
-- Storage: AWS S3
-- Database: MySQL 8.0+
-- Queue Worker: Redis + Laravel Queue
-
-### 📈 Project Impact & Scale
-
-<div align="center">
-
-| Metric | Count |
-|--------|-------|
-| 🗄️ **Database Tables** | 55 tables |
-| 📝 **Backend Code** | 3,540+ lines (services only) |
-| 🧪 **Test Coverage** | 20+ feature tests, 118+ assertions |
-| 📧 **Email Templates** | 12 automated templates |
-| 🎨 **Components** | 180+ (admin + user combined) |
-| 🔄 **API Endpoints** | 150+ RESTful endpoints |
-| ⚙️ **Order Statuses** | 13 automated workflows |
-| 📊 **Admin Features** | 15+ management modules |
-
-</div>
-
-### ⚡ Performance Metrics
-
-<div align="center">
-
-| Metric | Performance |
-|--------|-------------|
-| 🚀 **Page Load Time** | < 2 seconds (average) |
-| 📱 **Mobile Performance** | Optimized & responsive |
-| ⏱️ **API Response Time** | < 200ms (average) |
-| 🔄 **Uptime** | 99.9% availability |
-| 📦 **Bundle Size** | Optimized with code splitting |
-| 🖼️ **Images** | WebP format, lazy loading |
-
-</div>
-
-**Performance Optimizations:**
-- ✅ Code splitting per route
-- ✅ Lazy loading components
-- ✅ Image optimization (WebP conversion)
-- ✅ Browser caching strategies
-- ✅ Database query optimization
-- ✅ Redis caching for frequent queries
-- ✅ CDN for static assets
-
-### 🎯 Business Features Highlights
-
-✅ **Physical Product E-commerce**  
-✅ **Digital Product Activation** (automatic)  
-✅ **Down Payment System** (30% DP)  
-✅ **Payment Gateway** (Midtrans - 15+ methods)  
-✅ **Shipping Integration** (RajaOngkir - 3 couriers)  
-✅ **Order Cancellation** (24-hour window + refunds)  
-✅ **Design Proof Approval** workflow  
-✅ **Review & Rating** system  
-✅ **Promo Codes** (percentage & fixed)  
-✅ **Email Notifications** (12 templates)  
-✅ **Admin Analytics** dashboard  
-✅ **Guest Checkout** support  
-✅ **Invoice Generation** (PDF)  
-
-### 📚 Documentation
-
-The project includes comprehensive documentation:
-- API Documentation (Swagger/OpenAPI)
-- Feature Documentation (2000+ lines)
-- Testing Guide & Checklist
-- Deployment Guide
-- Quick Start Guide
-- Architecture Documentation
+🔗 **Repository:** [View Code](https://github.com/ihza6661/r-tech-admin-backend)
 
 ---
 
 ## 🛠️ Technical Skills
 
-### Frontend Development
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white)
-![Vue.js](https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vue.js&logoColor=4FC08D)
-![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+<div align="center">
 
-### Backend Development
-![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)
-![Laravel](https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)
-![Express.js](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white)
-![REST API](https://img.shields.io/badge/REST_API-009688?style=for-the-badge&logo=fastapi&logoColor=white)
+**Frontend:** ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white) ![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB) ![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=next.js&logoColor=white) ![Vue.js](https://img.shields.io/badge/Vue.js-35495E?style=flat-square&logo=vue.js&logoColor=4FC08D) ![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white) ![Tailwind CSS](https://img.shields.io/badge/Tailwind-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white)
 
-### Database & Caching
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-D82C20?style=for-the-badge&logo=redis&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
+**Backend:** ![PHP](https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=php&logoColor=white) ![Laravel](https://img.shields.io/badge/Laravel-FF2D20?style=flat-square&logo=laravel&logoColor=white) ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white) ![Express](https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white) ![REST API](https://img.shields.io/badge/REST_API-009688?style=flat-square&logo=fastapi&logoColor=white)
 
-### State Management & Data Fetching
-![React Query](https://img.shields.io/badge/React_Query-FF4154?style=for-the-badge&logo=react-query&logoColor=white)
-![Zustand](https://img.shields.io/badge/Zustand-000000?style=for-the-badge&logo=react&logoColor=white)
-![Context API](https://img.shields.io/badge/Context_API-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+**Database:** ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=flat-square&logo=postgresql&logoColor=white) ![Redis](https://img.shields.io/badge/Redis-D82C20?style=flat-square&logo=redis&logoColor=white)
 
-### DevOps & Tools
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
-![AWS S3](https://img.shields.io/badge/AWS_S3-569A31?style=for-the-badge&logo=amazon-s3&logoColor=white)
-![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+**State Management:** ![React Query](https://img.shields.io/badge/TanStack_Query-FF4154?style=flat-square&logo=react-query&logoColor=white) ![Zustand](https://img.shields.io/badge/Zustand-000000?style=flat-square&logo=react&logoColor=white)
 
-### Testing
-![PHPUnit](https://img.shields.io/badge/PHPUnit-336699?style=for-the-badge&logo=php&logoColor=white)
-![Jest](https://img.shields.io/badge/Jest-C21325?style=for-the-badge&logo=jest&logoColor=white)
+**DevOps & Cloud:** ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white) ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white) ![AWS S3](https://img.shields.io/badge/AWS_S3-569A31?style=flat-square&logo=amazon-s3&logoColor=white) ![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white) ![Heroku](https://img.shields.io/badge/Heroku-430098?style=flat-square&logo=heroku&logoColor=white) ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
 
-### Currently Exploring
-![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
-![GraphQL](https://img.shields.io/badge/GraphQL-E10098?style=for-the-badge&logo=graphql&logoColor=white)
-![WebSockets](https://img.shields.io/badge/WebSockets-000000?style=for-the-badge&logo=socket.io&logoColor=white)
+**Testing:** ![PHPUnit](https://img.shields.io/badge/PHPUnit-336699?style=flat-square&logo=php&logoColor=white) ![Vitest](https://img.shields.io/badge/Vitest-6E9F18?style=flat-square&logo=vitest&logoColor=white)
+
+</div>
 
 ---
 
 ## 💡 Other Notable Projects
 
 ### 🍰 Cake E-Commerce Platform
-A full-stack e-commerce solution for a bakery business with complete shopping experience
+Full-stack e-commerce solution for a bakery business with complete shopping experience
 
-<div align="center">
+[![Backend](https://img.shields.io/badge/Backend-Laravel-FF2D20?style=flat-square&logo=laravel)](https://github.com/ihza6661/cake-backend) [![Frontend](https://img.shields.io/badge/Frontend-Vue.js-4FC08D?style=flat-square&logo=vue.js)](https://github.com/ihza6661/cake-user-site)
 
-[![Backend](https://img.shields.io/badge/Backend-Laravel-FF2D20?style=flat-square&logo=laravel)](https://github.com/ihza6661/cake-backend)
-[![Frontend](https://img.shields.io/badge/Frontend-Vue.js-4FC08D?style=flat-square&logo=vue.js)](https://github.com/ihza6661/cake-user-site)
-[![Database](https://img.shields.io/badge/Database-MySQL-4479A1?style=flat-square&logo=mysql)](https://github.com/ihza6661/cake-backend)
+**Key Features:** Shopping cart system, order processing & tracking, payment integration ready, admin panel for management, sales analytics dashboard, product reviews & ratings
 
-</div>
+**Tech Stack:** Laravel (PHP) + MySQL + Vue.js + Vuex + Bootstrap
 
-**Key Features:**
-- 🛒 Complete shopping cart system with session management
-- 📦 Order processing and tracking
-- 💳 Payment integration ready
-- 👨‍💼 Admin panel for product and order management
-- 📊 Sales analytics dashboard
-- 🖼️ Product gallery with categories
-- ⭐ Product reviews and ratings
-
-**Tech Stack:**
-- Backend: Laravel (PHP) + MySQL
-- Frontend: Vue.js + Vuex
-- Styling: Bootstrap + Custom CSS
-
-🔗 **Repositories:** [Backend](https://github.com/ihza6661/cake-backend) | [Frontend](https://github.com/ihza6661/cake-user-site)
+🔗 [Backend Code](https://github.com/ihza6661/cake-backend) | [Frontend Code](https://github.com/ihza6661/cake-user-site)
 
 ---
 
 ### 🍪 Brownies Landing Page
 Modern, animated landing page for a brownies business with responsive design
 
-[![Live Demo](https://img.shields.io/badge/Status-Live-success?style=flat-square)](https://github.com/ihza6661/Brownies)
-[![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-F7DF1E?style=flat-square&logo=javascript)](https://github.com/ihza6661/Brownies)
+[![Live Demo](https://img.shields.io/badge/Status-Live-success?style=flat-square)](https://github.com/ihza6661/Brownies) [![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-F7DF1E?style=flat-square&logo=javascript)](https://github.com/ihza6661/Brownies)
 
-**Key Features:**
-- 🎨 Modern, clean design with smooth animations
-- 📱 Fully responsive (mobile, tablet, desktop)
-- 📧 Contact form with validation
-- 🖼️ Product showcase gallery
-- ⚡ Fast loading with optimized assets
-- 🎯 SEO optimized
+**Key Features:** Modern design with smooth animations, fully responsive (mobile/tablet/desktop), contact form with validation, product showcase gallery, SEO optimized
 
-**Tech Stack:**
-- Vanilla JavaScript (ES6+)
-- Modern CSS (Flexbox, Grid)
-- HTML5 Semantic markup
+**Tech Stack:** Vanilla JavaScript (ES6+) + Modern CSS (Flexbox, Grid) + HTML5
 
-🔗 **Repository:** [View Code](https://github.com/ihza6661/Brownies)
+🔗 [View Code](https://github.com/ihza6661/Brownies)
 
 ---
 
@@ -457,8 +222,6 @@ Modern, animated landing page for a brownies business with responsive design
 ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=ihza6661&layout=compact&theme=tokyonight&hide_border=true&langs_count=8)
 
 ![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=ihza6661&theme=tokyonight&hide_border=true)
-
-[![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=ihza6661&theme=tokyo-night&hide_border=true)](https://github.com/ihza6661)
 
 </div>
 
