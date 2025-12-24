@@ -119,7 +119,7 @@ A modern, conversion-optimized landing page for a trusted computer store in Pont
 
 ---
 
-### ⚙️ R-Tech Computer - Backend API & Admin Panel
+### ⚙️ Computer Store - Backend API & Admin Panel
 
 Full-stack admin panel and REST API for computer store management with Cloudinary integration
 
