@@ -14,7 +14,6 @@ I'm a **Full Stack Developer** from Pontianak, Indonesia, specializing in modern
 
 - 🔭 Currently working on: **Dua Insan Story** - A hybrid e-commerce platform for digital & print invitations
 - 🔭 Currently working on: **Toko Komputer** - A Professional Landing Page for Local Computer Store in Pontianak
-- 🌱 Currently learning: **Advanced Next.js patterns, Cloud Architecture with AWS, Queue Systems**
 - 💼 **Open to:** Freelance projects, Full-time opportunities, and Collaborations
 - 📍 Based in: Pontianak, Indonesia 🇮🇩
 - ⚡ Passionate about: Building performant web applications with excellent UX
@@ -217,8 +216,6 @@ Modern, animated landing page for a brownies business with responsive design
 
 <div align="center">
 
-![Ihza's GitHub stats](https://github-readme-stats.vercel.app/api?username=ihza6661&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true)
-
 ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=ihza6661&layout=compact&theme=tokyonight&hide_border=true&langs_count=8)
 
 ![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=ihza6661&theme=tokyonight&hide_border=true)
@@ -229,8 +226,6 @@ Modern, animated landing page for a brownies business with responsive design
 
 ## 🤝 Let's Connect & Collaborate!
 
-I'm actively seeking **freelance opportunities** and **full-time positions**. Let's build something amazing together!
-
 <div align="center">
 
 [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:ihzahmahendra6661@gmail.com)
@@ -239,19 +234,6 @@ I'm actively seeking **freelance opportunities** and **full-time positions**. Le
 [![WhatsApp](https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/6289692070270)
 
 </div>
-
-### 💼 Open For:
-
-<table align="center">
-  <tr>
-    <td align="center">✅ <b>Freelance Projects</b><br/>(Web Dev, API Dev, Full Stack)</td>
-    <td align="center">✅ <b>Full-time Opportunities</b><br/>(Frontend, Backend, Full Stack)</td>
-  </tr>
-  <tr>
-    <td align="center">✅ <b>Technical Consulting</b><br/>(Laravel, React, Next.js)</td>
-    <td align="center">✅ <b>Open Source Collaborations</b><br/>(E-commerce, SaaS projects)</td>
-  </tr>
-</table>
 
 ### 📧 Contact Information
 
@@ -265,13 +247,7 @@ I'm actively seeking **freelance opportunities** and **full-time positions**. Le
 ---
 
 <div align="center">
-  
-### 💡 "Code is like humor. When you have to explain it, it's bad." – Cory House
 
 ![Visitor Count](https://visitor-badge.laobi.icu/badge?page_id=ihza6661.ihza6661)
-
-<i>⭐️ Feel free to star this repository if you find it helpful!</i>
-
-**Made with ❤️ and lots of ☕**
 
 </div>
