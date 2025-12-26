@@ -195,36 +195,11 @@ Full-stack e-commerce solution for a bakery business with complete shopping expe
 
 ---
 
-### 🍪 Brownies Landing Page
-Modern, animated landing page for a brownies business with responsive design
-
-[![Live Demo](https://img.shields.io/badge/Status-Live-success?style=flat-square)](https://github.com/ihza6661/Brownies) [![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-F7DF1E?style=flat-square&logo=javascript)](https://github.com/ihza6661/Brownies)
-
-**Key Features:** Modern design with smooth animations, fully responsive (mobile/tablet/desktop), contact form with validation, product showcase gallery, SEO optimized
-
-**Tech Stack:** Vanilla JavaScript (ES6+) + Modern CSS (Flexbox, Grid) + HTML5
-
-🔗 [View Code](https://github.com/ihza6661/Brownies)
-
----
-
 **[📦 See all 24 repositories →](https://github.com/ihza6661?tab=repositories)**
 
 ---
 
-## 📊 GitHub Stats
-
-<div align="center">
-
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=ihza6661&layout=compact&theme=tokyonight&hide_border=true&langs_count=8)
-
-![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=ihza6661&theme=tokyonight&hide_border=true)
-
-</div>
-
----
-
-## 🤝 Let's Connect & Collaborate!
+## 🤝 Thank You.
 
 <div align="center">
 
