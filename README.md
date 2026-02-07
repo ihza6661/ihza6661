@@ -4,8 +4,8 @@ I'm **Ihza Mahendra**, a passionate Full Stack Developer from Pontianak, Indones
 
 ## Tech Stack
 
-**Frontend:** JavaScript, TypeScript, React, Next.js, Vue.js, Tailwind CSS  
-**Backend:** PHP, Laravel, Node.js, Express, REST API  
+**Frontend:** JavaScript, TypeScript, React, Next.js, Tailwind CSS  
+**Backend:** PHP, Laravel, Node.js, REST API  
 **Database:** MySQL, PostgreSQL, Redis  
 **DevOps:** Docker, Git, AWS, Vercel, Linux
 
