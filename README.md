@@ -1,6 +1,6 @@
 # Welcome to My GitHub Profile!
 
-I'm **Ihza Mahendra**, a passionate Full Stack Developer from Pontianak, Indonesia specializing in modern web technologies and e-commerce solutions.
+I'm **Ihza Mahendra**, Full Stack Developer from Pontianak, Indonesia specializing in modern web technologies.
 
 ## Tech Stack
 
