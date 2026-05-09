@@ -17,7 +17,7 @@ Full Stack Developer experienced in building scalable, user-centric applications
 
 **Portfolio:** [ihza.me](https://ihza.me)  
 **Email:** [ihzahmahendra6661@gmail.com](mailto:ihzahmahendra6661@gmail.com)  
-**Instagram:** [@ihza_baker](https://instagram.com/ihza_baker)  
+**Instagram:** [@ihza.me](https://instagram.com/ihza.me)  
 **WhatsApp:** [+62 896-9207-0270](https://wa.me/6289692070270)
 
 **Location:** Pontianak, Indonesia
