@@ -16,7 +16,7 @@ Full Stack Developer experienced in building scalable, user-centric applications
 ## Let's Connect!
 
 **Portfolio:** [ihza.me](https://ihza.me)  
-**Email:** [ihzahmahendra6661@gmail.com](mailto:ihzahmahendra6661@gmail.com)  
+**Email:** [hello@ihza.me](mailto:hello@ihza.me)  
 **Instagram:** [@ihza.me](https://instagram.com/ihza.me)  
 **WhatsApp:** [+62 896-9207-0270](https://wa.me/6289692070270)
 
